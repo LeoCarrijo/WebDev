@@ -1,0 +1,33 @@
+@charset "UTF_8";
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,400;1,500;1,600;1,700&display=swap');
+@font-face {
+    font-family: 'Valentine';
+    src: url('fonts/Valentine Moment.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+    /*
+    Tipos de Format
+    -Opentype (utf)
+    -Truetype (ttf)
+    -Embedded-opentype
+    -Truetype-aat (Apple Advanced Typography)
+    -svg
+    */
+}
+@font-face {
+    font-family: 'Flixgirl';
+    src: url('fonts/Filxgirl.TTF') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1 {
+    font-family: 'Flixgirl', sans-serif;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+h2 {
+    font: normal 1.3em 'Asap', sans-serif;
+}

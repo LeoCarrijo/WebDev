@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/*
+Medidas Absolutas
+cm, mm, in, px, pt, pc
+
+Medidas Relativas
+em, ex, rew, vw, vh, %
+
+tamanho padrão: 16px
+16px = 1em
+*/
+
+body {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-family: 'Work Sans', sans-serif;
+
+    /*font-weight: 900;
+    lighter, normal, bold, bolder*/
+
+    color: black;
+}
+
+h1 {
+    font-family: 'Oleo Script Swash Caps', cursive;
+    color: rgb(24, 97, 126);
+    font-size: 2em;
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(33, 136, 161);
+    font-size: 1.5em;
+}
+
+p {
+    font: bold 1em 'Courier New', Courier, monospace;
+
+}

@@ -1,0 +1,15 @@
+h1 {
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+
+    padding: 10px;
+    border: 10px solid darkslategray;
+    outline: 5px dashed coral;
+    margin: auto;
+}
+
+a {
+    background-color: rgb(230, 184, 184);
+    border: 2px solid red;
+}

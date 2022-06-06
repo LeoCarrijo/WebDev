@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/html.ico" type="image/x-icon">
+    <title>Imagem Flexível e Áudios e Vídeos</title>
+</head>
+<body>
+    <h1>
+        Imagens Flexíveis em <abbr title="HyperTetx Markup Language">HTML</abbr>
+    </h1>
+    <picture>
+        <source media="(max-width: 750px)" srcset="images/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="images/foto-m.png" type="image/png">
+        <img src="images/foto-g.png" alt="Imagem Grande">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>Reproduzindo áudios com HTML</p>
+    <audio preload="metadata" controls loop>
+        <source src="audios/We Bubbles - Freedom Trail Studio.mp3" type="audio/mpeg">
+        <source src="audios/We Bubbles - Freedom Trail Studio.ogv" type="audio/ogg">
+        <source src="audios/We Bubbles - Freedom Trail Studio.mp3" type="audio/wav">
+        <p>
+            Infelizmente seu navegador não consegue reproduzir audio. <a href="audios/We Bubbles - Freedom Trail Studio.mp3">Clique aqui para baixar o áudio</a>
+        </p>
+    </audio>
+    <h1>Reproduzindo Vídeos</h1>
+    <p>Este vídeo está hospedado no meu próprio servidor</p>
+    <video poster="images/thumb.jpg" controls>
+        <source src="videos/amongus.mp4" type="video/mp4">
+        <source src="videos/amongus.m4v" type="video/m4v">
+        <source src="videos/amongus.webm" type="video/webm">
+        <p>
+            Seu navegador não tem compatibilidade com reprodução de vídeos. <a href="videos/amongus.mp4">Clique aqui para realizar o download MP4</a>
+        </p>
+    </video>
+    <h1>Inserindo Vídeos do YouTube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/89KeVrM0c_s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <h1>Inserindo Vídeos com Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/693594530?h=74ba91e86b&color=f3f3f3&portrait=0" width="560" height="341" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+</body>
+</html>

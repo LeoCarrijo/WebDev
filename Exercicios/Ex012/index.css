@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    background-color: lightgoldenrodyellow;
+    color: maroon;
+    font-size: 12pt;
+    font-family: Arial;
+}
+
+h1 {
+    background-color: darkred;
+    color: maroon;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+    display: flex;
+    justify-content: end;
+}
