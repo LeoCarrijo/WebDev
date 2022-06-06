@@ -1,2 +1,2 @@
 # HTML-CSS
- Estudos de HTML e CSS
+ Estudos de HTML, CSS, Git e GitHub
