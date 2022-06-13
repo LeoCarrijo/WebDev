@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+header {
+    background-color: black;
+    background-size: cover;
+    padding: 100px;
+    color: white;
+    text-align: center;
+}
+
+section {
+    border: 1px solid black;
+    margin: 50px 10px;
+    line-height: 64px;
+}
+
+p {
+    font-size: 2em;
+}
